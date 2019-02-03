@@ -21,7 +21,7 @@ $ make install
 
 ## Usage
 
-```swift
+```shell
 $ notarize \
     --package "~/path/to/app.dmg" \
     --username "mail@icloud.com" \
@@ -54,7 +54,7 @@ $ notarize --help
 ## What does it actually do?
 1. Uses `$ xcrun altool` to upload the app package to Apple's servers.
 2. Waits for the app to be notarized. Checks every 30 seconds.
-3. Staples the app package with the generated certificate using `$ xcrun stapler staple <path>`
+3. Staples the app package with the generated certificate using `$ xcrun stapler staple <path>`
 
 ## FAQ
 
