@@ -1,5 +1,5 @@
 <h1 align="center">Notarize</h1>
-<p align="center">CLI program to automate the process of notarizing a Mac app</p>
+<p align="center">CLI to easily notarize a Mac app</p>
 <p align="center">
     <img src="https://badgen.net/github/release/Mortennn/Notarize/stable?label=Release&color=green" alt="latest">
     <img src="https://badgen.net/badge/Swift/4.2/green" alt="swift4.2">
