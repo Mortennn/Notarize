@@ -13,7 +13,7 @@ This project is created to make it easy to automate this process.
 
 ## Installation
 Use Notarize from the command line.
-```shell
+```
 $ git clone https://github.com/Mortennn/Notarize
 $ cd Notarize/
 $ make install
@@ -21,7 +21,7 @@ $ make install
 
 ## Usage
 
-```shell
+```
 $ notarize \
     --package "~/path/to/app.dmg" \
     --username "mail@icloud.com" \
@@ -30,7 +30,7 @@ $ notarize \
 ```
 
 **Description**
-```shell
+```
 $ notarize --help
 
     Copyright (c) 2019, Morten Nielsen.
@@ -59,7 +59,7 @@ $ notarize --help
 ## FAQ
 
 * Notarize says the package is invalid?
-    * Notarize will print a UUID, which you can use to see the error log from Apple. The error log can be seen using ``$ xcrun altool --notarization-info``
+    * Notarize will print a UUID, which you can use to see the error log from Apple. The error log can be seen using `$ xcrun altool --notarization-info`
 
 ## License
 MIT © [Morten Nielsen](https://github.com/Mortennn)
