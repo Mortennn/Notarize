@@ -37,7 +37,7 @@ $ notarize --help
 
     Version: Notarize 1.0.0 NotarizeKit 1.0.0
 
-    Usage: --package <path> --username <username> --password <password> --primary-bundle-id <primary-bundle-id> --asc-provider <provider_shortname>
+    Usage: --package <path> --username <username> --password <password> --primary-bundle-id <primary-bundle-id>
 
     Options:
 
