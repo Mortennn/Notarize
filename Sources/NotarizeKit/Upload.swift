@@ -18,7 +18,7 @@ public func uploadToNotarizationServices(token: Token) -> String {
         "--file",
         "\(token.package)",
         "--primary-bundle-id",
-        "\(token.primaryBundleId)"
+        "\(token.primaryBundleId)",
     ]
 
     if let ascProvider = token.ascProvider {
@@ -74,7 +74,7 @@ public func waitForNotarizationToFinsish(UUID: String, token: Token) -> String {
                 "--password",
                 token.password,
                 "--output-format",
-                "xml"
+                "xml",
             ])
         } catch {
             print("Checking status failed".red)
@@ -88,14 +88,14 @@ public func waitForNotarizationToFinsish(UUID: String, token: Token) -> String {
     return notarizationStatus
 }
 
-public func getStatus(xmlResponse:String) -> String? {
+public func getStatus(xmlResponse: String) -> String? {
     let xml = SWXMLHash.config { _ in }.parse(xmlResponse)
     let notarizationInfo = xml["plist"]["dict"]["dict"].children
 
     for item in notarizationInfo.enumerated() {
         guard let text = item.element.element?.text else { continue }
         if text == "Status" {
-            guard let status = notarizationInfo[item.offset+1].element?.text else {
+            guard let status = notarizationInfo[item.offset + 1].element?.text else {
                 return nil
             }
             return status
@@ -112,7 +112,7 @@ public func stapleApp(token: Token) {
             "xcrun",
             "stapler",
             "staple",
-            token.package
+            token.package,
         ])
     } catch {
         print("Stapling package failed".red)

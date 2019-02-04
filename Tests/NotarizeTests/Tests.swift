@@ -18,7 +18,7 @@ class Tests: XCTestCase {
             Options.password,
             TestTokens.password,
             Options.primaryBundleId,
-            TestTokens.primaryBundleId
+            TestTokens.primaryBundleId,
         ])
     }
 

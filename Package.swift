@@ -10,21 +10,21 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Rainbow", from: "3.0.0"),
-        .package(url: "https://github.com/drmohundro/SWXMLHash.git", from: "4.7.0")
+        .package(url: "https://github.com/drmohundro/SWXMLHash.git", from: "4.7.0"),
     ],
     targets: [
         .target(name: "Notarize", dependencies: [
             "NotarizeKit",
-            "Rainbow"
+            "Rainbow",
         ]),
         .target(name: "NotarizeKit", dependencies: [
             "Rainbow",
-            "SWXMLHash"
+            "SWXMLHash",
         ]),
         .testTarget(name: "NotarizeTests", dependencies: [
             "NotarizeKit",
             "Rainbow",
-            "SWXMLHash"
+            "SWXMLHash",
         ]),
     ]
 )
