@@ -16,8 +16,7 @@ xcode:
 	@swift package generate-xcodeproj --xcconfig-overrides package.xcconfig
 	@open Notarize.xcodeproj
 
-release:
-	@swift build -c release -Xswiftc "-target" -Xswiftc "x86_64-apple-macosx10.13" --disable-sandbox -Xswiftc -static-stdlib
+release: build
 	@cp -f .build/release/Notarize ~/Desktop/Notarize
 
 install: build

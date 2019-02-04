@@ -1,10 +1,10 @@
 <h1 align="center">Notarize</h1>
 <p align="center">CLI to easily notarize a Mac app</p>
 <p align="center">
-    <img src="https://badgen.net/github/release/Mortennn/Notarize/stable?label=Release&color=green" alt="latest">
-    <img src="https://badgen.net/badge/Swift/4.2/green" alt="swift4.2">
-    <img src="https://badgen.net/badge/Platform/macos/green" alt="platform">
-    <img src="https://badgen.net/badge/License/MIT/green" alt="license">
+    <img src="https://badgen.net/github/release/Mortennn/Notarize/stable?label=Release&color=black" alt="latest">
+    <img src="https://badgen.net/badge/Swift/4.2/black" alt="swift4.2">
+    <img src="https://badgen.net/badge/Platform/macos/black" alt="platform">
+    <img src="https://badgen.net/badge/License/MIT/black" alt="license">
 </p>
 <br><br>
 Apple recently added a new service were they will check and approve an app to not execute malcious code. It is a great security improvement, but the downside is that this adds a new step in the build system.
