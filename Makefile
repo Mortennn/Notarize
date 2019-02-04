@@ -9,7 +9,7 @@ REPO = https://github.com/Mortennn/$(TOOL_NAME)
 RELEASE_TAR = $(REPO)/archive/$(VERSION).tar.gz
 SHA = $(shell curl -L -s $(RELEASE_TAR) | shasum -a 256 | sed 's/ .*//')
 
-.PHONY: install build uninstall format_code update_brew release
+.PHONY: install build uninstall format update_brew release
 	
 xcode:
 	@osascript -e 'quit app "Xcode"'
@@ -29,7 +29,7 @@ build:
 uninstall:
 	rm -f $(INSTALL_PATH)
 
-format_code:
+format:
 	swiftformat .
 
 publish: archive upload_to_github
