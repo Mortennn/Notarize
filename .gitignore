@@ -1,11 +1,3 @@
 .DS_Store
 /.build
 /*.xcodeproj
-notes.md
-test_script.sh
-releases
-scripts/archive.sh
-Publish.md
-Makefile
-.gitconfig
-CHANGELOG.md
