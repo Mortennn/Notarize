@@ -21,6 +21,7 @@ $ make install
 
 ## Usage
 
+### Example
 ```
 $ notarize \
     --package "~/path/to/app.dmg" \
