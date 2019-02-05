@@ -12,10 +12,8 @@ Apple recently added a new service were they will check and approve an app to no
 This project is created to make it easy to automate this process.
 
 ## Installation
-```
-$ git clone https://github.com/Mortennn/Notarize
-$ ./notarize/install.sh
-```
+1. Download the [latest release](https://github.com/Mortennn/Notarize/releases/latest)
+2. Run the install script: `$ ./install.sh`
 
 ## Usage
 
