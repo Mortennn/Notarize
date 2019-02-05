@@ -1,3 +1,3 @@
 Version 1.0.0
 
-new release!
+Initial release.
