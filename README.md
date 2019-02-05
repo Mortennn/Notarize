@@ -12,11 +12,9 @@ Apple recently added a new service were they will check and approve an app to no
 This project is created to make it easy to automate this process.
 
 ## Installation
-Use Notarize from the command line.
 ```
 $ git clone https://github.com/Mortennn/Notarize
-$ cd Notarize/
-$ make install
+$ ./notarize/install.sh
 ```
 
 ## Usage
@@ -30,7 +28,7 @@ $ notarize \
     --primary-bundle-id "com.company.appname.dmg"
 ```
 
-**Description**
+### Description
 ```
 $ notarize --help
 
