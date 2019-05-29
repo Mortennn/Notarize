@@ -2,7 +2,7 @@
 <p align="center">Command line tool to easily notarize a Mac app</p>
 <p align="center">
     <img src="https://badgen.net/github/release/Mortennn/Notarize/stable?label=Release&color=black" alt="latest">
-    <img src="https://badgen.net/badge/Swift/4.2/black" alt="swift4.2">
+    <img src="https://badgen.net/badge/Swift/5/black" alt="swift5">
     <img src="https://badgen.net/badge/Platform/macOS/black" alt="platform">
     <img src="https://badgen.net/badge/License/MIT/black" alt="license">
 </p>
