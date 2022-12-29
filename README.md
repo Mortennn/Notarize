@@ -7,7 +7,7 @@
     <img src="https://badgen.net/badge/License/MIT/black" alt="license">
 </p>
 <br><br>
-Apple recently added a new service where they will check and approve an app to not execute malcious code. It is a great security improvement, but the downside is that this adds a new step in the build system.
+Apple recently added a new service where they will check and approve an app to not execute malicious code. It is a great security improvement, but the downside is that this adds a new step in the build system.
 
 This project is created to make it easy to automate this process.
 
